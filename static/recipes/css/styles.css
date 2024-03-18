@@ -168,7 +168,8 @@
     
     .recipe-list-item{
         max-width: 64rem;
-        align-items: start;
+        height: fit-content;
+              
 
     }
 

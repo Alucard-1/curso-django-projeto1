@@ -142,25 +142,18 @@
     }
 
     .main-content{
-        
-        background: blue;
-
         padding-top: 0;
-       
         
     }
     
-
     .main-content-list{
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
         gap: var(--spacing-gutter-larger);
     }
-
-    .temp{
-        height: 40rem;
-        background: red;
-    }
+    
+    
+    
 
     .recipe{
        background: var(--color-white); 
@@ -192,10 +185,15 @@
 
     .recipes-title-container{
         padding: var(--spacing-gutter-medium);
-        padding: 2rem
+        padding: 2rem;
         
     }
 
+    .recipes-title-container a{
+        text-decoration: none;
+        color: var(--color-primary-dark);
+        
+    }
     .recipe-author{
         padding: 0 var(--spacing-gutter-medium);
 
@@ -269,6 +267,10 @@
         box-shadow: -5px 5px 15px rgba(0,0,0, 0.2);
 
 
+    }
+    
+    .preparation-steps {
+        padding: var(--spacing-gutter-medium);
     }
 
     .main-footer{
